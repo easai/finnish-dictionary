@@ -1,6 +1,6 @@
 {
   "name": "finnish-dictionary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JavaScript package for retrieving Finnish words from SanaKirja API.",
   "main": "finnish-dictionary.js",
   "scripts": {
@@ -23,9 +23,10 @@
   },
   "homepage": "https://github.com/easai/finnish-dictionary#readme",
   "dependencies": {
+    "finnish-dictionary": "^0.1.0",
     "jest": "^29.7.0"
   },
-  "jest":{
+  "jest": {
     "rootDir": "./",
     "modulePaths": [
       "<rootDir>"
