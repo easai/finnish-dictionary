@@ -1,0 +1,34 @@
+{
+  "name": "finnish-dictionary",
+  "version": "0.1.0",
+  "description": "A JavaScript package for retrieving Finnish words from SanaKirja API.",
+  "main": "finnish-dictionary.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "test_a": "jest --detectOpenHandles -- finnish-dictionary.test.js",
+    "test_b": "jest --detectOpenHandles -- finnish-dictionary-alt.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easai/finnish-dictionary.git"
+  },
+  "keywords": [
+    "Finnish",
+    "dictionary"
+  ],
+  "author": "easai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easai/finnish-dictionary/issues"
+  },
+  "homepage": "https://github.com/easai/finnish-dictionary#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest":{
+    "rootDir": "./",
+    "modulePaths": [
+      "<rootDir>"
+    ]
+  }
+}
